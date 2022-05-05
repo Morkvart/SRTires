@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
 
+html {
+  height: 100%;
+}
+
 body {
   box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
 }
 
 h1 {
@@ -17,6 +23,7 @@ h1 {
 }
 
 img {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -56,6 +63,7 @@ option {
 .table__block {
   margin: 0 auto;
   display: none;
+  padding-bottom: 55px;
 }
 
 .active {
